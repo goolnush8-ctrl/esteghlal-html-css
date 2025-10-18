@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'byekan';
+    src: url(Yekan.ttf) format('truetype');
+}
+@font-face{
+    font-family: lalehzar;
+    src: url(Lalezar-Regular.ttf) format('truetype');
+}
+body{
+    font-family: byekan;
+}
+.header{
+    height:600px;
+    background-image: url(ss66.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+.nav-list{
+    list-style-type: none;
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    color: white;
+    background-color: rgb(30, 30, 133);
+    padding: 10px;
+    border-radius: 20px;
+}
+.nav-item:hover{
+    color: gold;
+}
+.title{
+    font-size: 60px;
+    font-family: lalehzar;
+    margin-top: 90px;
+}
+span{
+    color: rgb(170, 170, 170);
+}
+span1{
+    color:rgb(21, 59, 212);
+}
+span2{
+    color: green;
+}
+span3{
+    color: rgb(170, 170, 170);
+}
+span4{
+    color: red;
+}
+span5{
+    color:rgb(255, 191, 29);
+}
+.desc{
+    width: 220px;
+    height: 55px;
+    margin: auto;
+    font-size: 25px;
+    background-color:rgb(102, 102, 102);
+    line-height: 55px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin-top: 30px;
+    text-align: center;
+}
+.members{
+    text-align: center;
+    padding: 10px 30px;
+    background-color: royalblue;
+}
+.member-list{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.member-item{
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 0 20px #bbbbbb;
+}
+.member-pic{
+    width: 350px;
+    height: 250px;
+    background-origin: border-box;
+}
+.member-name{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.member-bio{
+    padding: 20px;
+    text-align: justify;
+    font-family: lalehzar;
+}
+.about{
+    height: 700px;
+    background-image:url('ss3.jpeg') ;
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    background-color: silver;
+    background-blend-mode: multiply;
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(61, 61, 237 , 0.3);
+    text-align: center;
+    padding: 100px 120px;
+}
+p{
+    margin-top: 40px;
+    text-align: justify;
+}
+h2{
+    font-size: 35px;
+}
+.footer{
+    height: 60px;
+    background-color: rgb(0, 64, 255);
+    text-align: center;
+}
+.footer img{
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.panda{
+    background-color: lightgray;
+    text-align: center;
+    margin: 0;
+}
