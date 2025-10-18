@@ -2,7 +2,6 @@
 
 A simple and responsive website designed for **Esteghlal Football Club**, created using HTML and CSS.
 
-🌐 **Live Demo:** [View Project](https://goolnush8-ctrl.github.io/esteghlal-html-css/)
 
 
 
